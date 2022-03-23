@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-container{
+    overflow: hidden;
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.sky{
+    position: relative;
+    padding-top: 0.1px;
+    width: 100%;
+    height: 80%;
+    background-color: #5e748b;
+}
+
+.ground{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    outline: 3px solid #a7b7c0;
+    box-shadow: -20px 0 100px 20px #aeabda9c;
+    background-color: #60688c;
+}
+
+.sun{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #f4efbf;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
+    box-shadow: 0 0 0 20px #89a8a7,
+                0 0 0 40px #7599af,
+                0 0 0 70px #6c8ba9;
+}
+
+.stars{
+    position: absolute;
+    width: 100vh;
+}
+
+.stars-2{
+    position: absolute;
+    height: 90%;
+}
+
+.item-container{
+    position:absolute;
+    bottom: 20%;
+    height: 50%;
+    width: 100%;
+}
+
+.tree{
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+    left: -30px;
+}
+
+.dango{
+    position: absolute;
+    height: 25%;
+    right: 10px;
+    bottom: 0;
+}
+
+.text{
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
