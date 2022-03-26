@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(44, 44, 44);
+    overflow-x: hidden;
+    margin: 0 5px 5px 5px;
+}
+
+.container{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid #ccc;
+    border-radius: 25%;
+}
+
+.text{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .text{
+    color: #ccc;
+    text-align: left;
+}
+
+.menu{
+    background-color: rgba(102, 102, 102, 0.733);
+    height: 200px;
+    border: 5px solid rgba(204, 204, 204, 0.705);
+    box-sizing: border-box;
+}
+
+.main-section{
+    height: 650px;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+.section{
+    background-color:darkslategray;
+    overflow: auto;
+    border: 5px solid red;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+}
+
+article{
+    color: #ccc;
+    font: 2em sans-serif;
+    padding: 6px;
+    display: inline-block;
+}
+
+.txtcont{
+    display: inline;
+    width: 60px;
+}
+
+.hodbar{
+    background-color: crimson;
+    width: 300px;
+    overflow: auto;
+    height: 350px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 8px solid cornflowerblue;
+}
+
+.list-option{
+    list-style: none;
+    height: 50px;
+    background-color: coral;
+    margin-bottom: 10px;
+    margin-left: 0;
+    outline: 3px solid #444;
+    text-align: center;
+    display: block;
+    padding-top: 1em;
+}
+
+ul{
+    padding: 0;
+}
+
+.img-cont{
+    background-color: rgb(124, 124, 124);
+    display: inline-block;
+}
+
+.image{
+    height: 350px;
+}
+
+.prices-cont{
+    background-color: #ccc;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin-left: 1.5em;
+    vertical-align: top;
+}
+
+.prices-list{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 255, 255);
+    width: 70%;
+}
+
+.price{
+    margin-top: 60px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2em;
+}
+
+.games{
+    width: 8680px;
+    height: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    background: transparent url(https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/apps/row1-ld.png) left center repeat-x;
+}
+
+.fortnite{
+    margin-top: 1em;
+    height: 580px ;
+    display: block;
+    border-radius: 1em;
+    border: 6px solid rgb(230, 230, 230);
+    background-position: center center;
+    background-image: url(https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/geforce-now-free-to-play-2560x580-d.jpg);
+}
+
+.sky{
+    height: 600px;
+    background-color: #5e748b;
+}
+.sun{
+    background-color: hsl(53deg 67% 82%);
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px #7ea1a3,
+                0 0 0 35px #6e92ac,
+                0 0 0 50px #6e92ac
+                ;
+    position: relative;
+    top: 60px;
+    padding: 20px;
+}
+
+.ground{
+    background-color: #60688c;
+    position: relative;
+    height: 100px;
+    top: 400px;
+    border-top: 6px solid #c8d7f4;
+    box-shadow: 0 -50px 100px #85a3bf;
+}
+
+.stars{
+    position: absolute;
+    height: 95%;
+}
+
+.stars-2{
+    position: absolute;
+    height: 60%;
+    left: 50%;
+}
+
+.tree{
+    position: relative;
+    width: 350px;
+    bottom: 50px;
+    left: 4em;
+}
+
+
+.dango{
+    position: relative;
+    width: 200px;
+    bottom: 50px;
+    left: 500px;
+}
